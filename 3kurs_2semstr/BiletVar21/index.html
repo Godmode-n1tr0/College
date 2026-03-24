@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="title">Конвертер валюты</h1>
+        <label class="textfrominput">Введите кол-во валюты</label>
+        <input type="number" class="text">
+        <select name="ome" id="from_value" class="parametr1">
+          <option disabled selected hidden value=" ">Выберите курс</option>
+          <option value="rub">Рубль</option>
+          <option value="dol">Доллор</option>
+          <option value="evr">Евро</option>
+          <option value="uan">Юань</option>
+        </select>
+        <div class="arr">
+            <label>&uarr;</label>
+            <label>&darr;</label>
+        </div>
+        <select name="ome" id="to_value" class="parametr2">
+          <option disabled selected hidden value=" ">Выберите курс</option>
+          <option value="rub">Рубль</option>
+          <option value="dol">Доллор</option>
+          <option value="evr">Евро</option>
+          <option value="uan">Юань</option>
+        </select>
+        <p class="result">Результат</p>
+        <button class="btn">Рассчитать</button>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

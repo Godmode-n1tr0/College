@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    color:white;
+    background-color: black;
+    flex-direction: column;
+
+    padding: 0% 10% 0% 0%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.tours{
+    padding-bottom: 40px;
+    padding-left: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.Fnames{
+    margin-left: 8%;
+}
+.Fname{
+    display: flex;
+
+    padding: 30px 200px 30px 10px;
+
+}
+.Fnamem{
+    display: flex;
+    padding: 30px 1000px 30px 10px;
+    
+}
+.imagent{
+    display: flex;
+    background-color: asd;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.a5{
+    padding-left: 151px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.a6{
+    padding-left: 538px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tours2{
+    padding-bottom: 40px;
+    padding-left: 3%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.image1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.a1{
+    padding-top: 15px;
+}
+header {
+    background-image: url("../image/header_back.png");
+    background-size: cover;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mainlink{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+/* Все а значения */
+.mainlink a{
+    padding-left: 10px;
+    font-size: 20px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Login/sing up */
+.mainlink .login{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Логотип */
+.mainlink .log{
+    background-color: black;
+}
+
+.morelink{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.morelink a{
+    color: white;
+}
+
+/* Кнопка */
+.morelink .Button{
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 100px 10px 100px;
+    background-color:darkorange;
+    margin-bottom: 500px;
+}
+.morelink .Button:hover{
+    box-shadow: rgba(255, 0, 0, 1) 0 2px 30px;
+    opacity: 0.7;
+    transition-duration: .1s;
+}
+
+
+/* описание */
+.morelink .opis{
+    width: 90%;
+    color:aliceblue;
+    opacity: 0.6;
+    text-align: center;
+}
+
+/* Заголовок */
+.morelink .zag {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/* Подвал 1 */
+.footer1{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: #1f2022;;
+    flex-direction: column;
+}
+.footer_up{
+    display: flex;
+    justify-content: space-between;
+}
+.Ready{
+    display: flex;
+    padding-right: 55%;
+    padding-left: 3%;
+    flex-direction: column;
+    color: white;
+}
+.ready_exp{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.О_нас{
+    display: flex;
+    padding-right: 5%;
+    font-family:sans-serif;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+}
+.enter {
+    background: none;
+    padding: 25px 60px 25px 10px;
+    border-style:solid;
+    border-radius: 15px;
+    border-width: 2px;
+    border-width: 0px;
+    margin-right: 20px;
+    border-color: white;
+}
+
+.enter::placeholder {
+    color: white;
+}
+
+.button{
+    background-color: orange;
+    padding: 25px 25px 25px 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: black;
+}
+
+/* Подвал 2 */
+.footer_down{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.service{
+    display: flex;
+    padding-left: 3%;
+    flex-direction: column;
+    color: white;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.Helping{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.Social{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-right: 6%;
+}
+.zag{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    
+}
+.a3{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:white;
+    text-decoration: none;
+}

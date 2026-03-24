@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|c:\\users\\328-2\\desktop\\shengals_pr33\\shengals_shop\\pages\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|solutionrelative:pages\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\pages\\lkprpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|solutionrelative:pages\\lkprpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|solutionrelative:pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\pages\\lkprpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|solutionrelative:pages\\lkprpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\pages\\lkpopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F70D3121-D4D9-4A1A-8D51-22F2EB83125C}|Shengals_Shop.csproj|solutionrelative:pages\\lkpopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\AdminPage.xaml.cs",
+              "RelativeToolTip": "Pages\\AdminPage.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T10:22:17.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\AdminPage.xaml",
+              "RelativeToolTip": "Pages\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T10:22:14.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LKPrPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\LKPrPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\LKPrPage.xaml.cs",
+              "ToolTip": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\LKPrPage.xaml.cs",
+              "RelativeToolTip": "Pages\\LKPrPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T10:22:13.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LKPrPage.xaml",
+              "DocumentMoniker": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\LKPrPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LKPrPage.xaml",
+              "ToolTip": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\LKPrPage.xaml",
+              "RelativeToolTip": "Pages\\LKPrPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T10:22:02.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LKPoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\LKPoPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LKPoPage.xaml",
+              "ToolTip": "C:\\Users\\328-2\\Desktop\\Shengals_Pr33\\Shengals_Shop\\Pages\\LKPoPage.xaml",
+              "RelativeToolTip": "Pages\\LKPoPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-11T10:22:01.518Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

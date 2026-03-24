@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* навигация */
+
+
+.navigation{
+    position: relative;
+    height: 100px;
+    padding-top: 0.5rem;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation .text{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-right: 10%;
+}
+
+.navigation .center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation .text a{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: 0.1rem solid white;
+    color: white;
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px 0px white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigation .ladno{
+    margin-left: 10%;
+}
+
+.navigation img{
+    transition: 0.2s;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+.navigation img:hover{
+    background-color: white;
+    border-radius: 5rem;
+    box-shadow: 0px 0px 20px 0px white;
+
+}
+
+.navigation .text a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px 0px white;
+}
+
+/* шапка  */
+
+.shapka{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    background: linear-gradient(rgb(39, 39, 39), black);
+}
+
+
+.shapka .namecompani{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.7rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px 0px white;
+}
+
+.shapka .namecompani a{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.shapka .namecompani h1{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.shapka img{
+    width: 1000px;
+}
+
+/* гарантия */
+
+
+.garantiay{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 1000px;
+    background: linear-gradient(black, rgb(39, 39, 39));
+}
+
+.garantiay h1{
+    color: white;
+    margin-bottom: 5rem;
+    margin-left: 7%;
+    margin-top: 8rem;
+    margin-right: 72%;
+    border-radius: 1rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid white;
+    box-shadow: 0 5px 5px 0px #ffffff50;
+
+}
+
+.garantiay .text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 20%;
+    gap: 2rem;
+}
+
+.garantiay .text1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.garantiay .text2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.garantiay .text1 .a{
+    font-size: 2rem;
+    color:  white;
+}
+
+.garantiay .text2 .a{
+    font-size: 2rem;
+    color:  white;
+    margin-right: 5rem;
+}
+
+.garantiay .text .text1 .text1_a3{
+    color: white;
+    font-size: 2rem;
+    border: 0.1rem solid white;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 0px white;
+}
+
+.garantiay .text .text2 .text1_a4{
+    color: white;
+    font-size: 2rem;
+    border: 0.1rem solid white;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 0px white;
+}

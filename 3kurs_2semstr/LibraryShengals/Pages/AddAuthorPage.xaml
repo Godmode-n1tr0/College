@@ -1,0 +1,92 @@
+﻿<Page x:Class="LibraryShengals.Pages.AddAuthorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryShengals.Pages"
+      mc:Ignorable="d" 
+      Background="white"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddAuthorPage">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="FirstName">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Grid.Row" Value="0"/>
+            <Setter Property="Grid.Column" Value="0"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="LastName">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Grid.Row" Value="1"/>
+            <Setter Property="Grid.Column" Value="0"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Portrait">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Grid.Row" Value="2"/>
+            <Setter Property="Grid.Column" Value="0"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="TextBoxOne">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Width" Value="550"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Text" Value="{Binding FirstName}"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Grid.Row" Value="0"/>
+            <Setter Property="Grid.Column" Value="1"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="TextBoxTwo">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Text" Value="{Binding LastName}"/>
+            <Setter Property="Width" Value="550"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Grid.Row" Value="1"/>
+            <Setter Property="Grid.Column" Value="1"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="TextBoxThree">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Text" Value="{Binding Portaint}"/>
+            <Setter Property="Width" Value="550"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Grid.Row" Value="2"/>
+            <Setter Property="Grid.Column" Value="1"/>
+        </Style>
+        <Style TargetType="Button" x:Key="BtnSave">
+            <Setter Property="Content" Value="Сохранить"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="30"/>
+            <Setter Property="Background" Value="white"/>
+            <Setter Property="Width" Value="195"/>
+            <Setter Property="Grid.Row" Value="5"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="210"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="110"/>
+        </Grid.RowDefinitions>
+        <TextBlock Style="{StaticResource FirstName}">Имя автора</TextBlock>
+        <TextBlock Style="{StaticResource LastName}">Фамилия Автора</TextBlock>
+        <TextBlock Style="{StaticResource Portrait}">Портрет</TextBlock>
+        <TextBox Style="{StaticResource TextBoxOne}"/>
+        <TextBox Style="{StaticResource TextBoxTwo}"/>
+        <TextBox Style="{StaticResource TextBoxThree}"/>
+        <Button Style="{StaticResource BtnSave}" Click="SaveBtn_Click" Name="SaveBtn"/>
+    </Grid>
+</Page>

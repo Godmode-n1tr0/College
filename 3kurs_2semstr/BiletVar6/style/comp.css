@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+main{
+width: 100%;
+height: 100vh;
+padding: 25px;
+box-sizing: border-box;
+background-color: wheat;
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+gap: 25px;
+}
+
+.item_one{
+    background-color: #f15555;
+    grid-column: span 12;
+    grid-row: span 1;
+}
+
+.item_two{
+    background-color: #f1f155;
+    grid-column: span 5;
+    grid-row: span 6;
+}
+
+.item_three{
+    background-color: #55f155;
+    grid-column: span 3;
+    grid-row: span 6;
+}
+
+.item_four {
+    grid-column: span 4;
+    grid-row: span 10;
+    background-color: darkgreen;
+}
+
+.item_five {
+    grid-column: span 4;
+    grid-row: span  6;
+    background-color: aquamarine;
+}
+
+
+.item_six {
+    grid-column: span 4;
+    grid-row: span  6;
+    background-color: aqua;
+}
+
+
+.item_seven {
+    grid-column: span 4;
+    grid-row: span  2;
+    background-color: red;
+}

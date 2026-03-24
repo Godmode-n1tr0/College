@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.btn{
+    padding: 20px 200px 20px 200px;
+    border:none;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+
+    font-family: sans-serif;
+}
+.anim1{
+    margin-top: 50px;
+    animation: anim1 2s infinite;
+}
+.anim2{
+    animation: anim2 0.5s infinite;
+}
+.anim3{
+    animation: anim3 2s infinite;
+
+}
+.anim4{
+    animation: anim4 2s infinite;
+
+}
+.anim5 {
+    animation: anim5 5s infinite;
+    background: linear-gradient(45deg, orangered, aqua, aquamarine, cornflowerblue);
+    background-size: 400%;
+    background-position: 0% center
+}
+@keyframes anim5 {
+    0%, 100%{
+        
+        background-position: 0% center;
+    }
+    50%{
+        background-position: 100% center;
+    }
+}
+@keyframes anim4 {
+    0%, 100%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    
+}
+@keyframes anim3 {
+    0%, 100%{
+        box-shadow: 0 0 0 rgba(255, 0, 0, 0.5)
+    }
+    50%{
+        box-shadow: 0 0 50px rgba(255, 0, 0, 1)
+    }
+}
+@keyframes anim2 {
+    0%{
+        transform: translateX(-5%)
+        
+    }
+    25%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(5%);
+    }
+    75%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform:  translateX(-5%)
+    }
+}
+@keyframes anim1 {
+    0%{
+        transform: scale(1,1);
+    }
+    25%{
+        transform: scale(0.5, 0.5);
+    }
+    50%{
+        transform: scale(1, 1);
+    }
+    75%{
+        transform: scale(1.5, 1.5);
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}

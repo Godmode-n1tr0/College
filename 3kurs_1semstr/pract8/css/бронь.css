@@ -1,0 +1,148 @@
+
+
+*{ 
+    box-sizing: border-box; 
+    margin:0; 
+    padding:0;
+
+}
+
+@font-face { 
+    font-family: 'Inter'; 
+    src: url("../font/Inter_24pt-Regular.ttf");
+
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #030303;
+    background-image: url("../image/contact_back.png");
+    color: white;
+}
+
+.page-wrap{
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ 
+}
+
+.card-outer {
+    width:1000px;
+    max-width: 1200px;
+    border-radius: 8px;
+    padding: 34px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    background-color: #191919;
+}
+
+.title{
+    text-align: left;
+    font-size: 44px;
+    font-weight: 700;
+    
+    margin-bottom: 22px;
+}
+
+.card-inner {
+
+    padding: 48px 48px 80px 48px;
+    position: relative;
+    display: flex;
+}
+
+.form {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row.top{
+    display:flex;
+    gap:16px;
+}
+
+.field {
+    background: black;
+    border-radius: 15px;
+    padding: 14px 16px;
+    border: none;
+    color: gray;
+    font-size: 16px;
+}
+
+.field.name{ 
+    flex: 1.6;
+}
+
+.field.guests{
+    width: 100%;
+}
+
+.field.phone{ 
+    width: 100%;
+}
+
+.field.textarea{
+    width: 100%; 
+
+}
+
+.decor{
+    width: 20%;
+    position: relative;
+}
+
+.decor .bulletproof{
+    width: 220px;
+    position: absolute;
+    right: -290px;
+    top: 40px;
+
+}
+
+.decor .helmet {
+    width: 140px;
+    position: absolute;
+    right: -330px;
+    top: 140px;
+}
+
+.btn-wrap{
+    position: absolute;
+    left: 0%;
+    bottom: 20px;
+    top:430px
+
+}
+
+.book-btn {
+    padding: 10px 70px;
+    background-color: white;
+    color: #E73AB8;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.book-btn:hover{
+    background-color: #E73AB8;
+    color: white;
+}
+
+.book-btn a{
+    text-decoration: none;
+}
+
+fieldset{
+    border-left: none;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Забронировать — Кибертека</title>
+    <link rel="stylesheet" href="css/бронь.css" />
+</head>
+<div>
+    <div class="page-wrap">
+        <div class="card-outer">
+            <fieldset>
+                <legend class="title"><p>Забронируй место</p></legend>
+                <div class="card-inner">
+
+                <form class="form">
+                    <div class="row top">
+                        <input class="field name" type="text" name="name" placeholder="Имя" required>
+                        <input class="field date" type="date" name="date" placeholder="дд.мм.гггг">
+                        <input class="field time" type="time" name="time" placeholder="--:--">
+                    </div>
+
+                    <input class="field guests" type="number" name="guests" placeholder="Количество гостей" max="20" min="0">
+                    <input class="field phone" type="number" name="phone" placeholder="Номер телефона: +7(999) 999-99-99">
+                    <textarea class="field textarea" name="note" rows="6" placeholder="Ваши пожелания"></textarea>
+                </form>
+
+                <div class="decor">
+                    <image class="bulletproof" src="../image/bulletproof.png" alt="bulletproof">
+                    <image class="helmet" src="../image/helmet.png" alt="helmet">
+                </div>
+   
+                <div class="btn-wrap">
+                    <button class="book-btn">
+                        Забронировать
+                    </button>
+            </fieldset>
+        </div>
+    </div>
+</div>
+
+</main>
+</body>
+</html>

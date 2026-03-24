@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+     font-family: Inter;
+}
+
+@font-face 
+{
+    font-family: Inter;
+    src: url('../font/Inter_24pt-Regular.ttf');
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0E0E0E;
+    background-image: url(image/shape_back_one.png), url(image/shape_back_two.png);
+    background-repeat: no-repeat;
+    background-size: cover,70%;
+    background-position: 0% center,100% center;
+
+}
+main
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_main
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 25px;
+    margin-left: 10%;
+}
+
+.left_title 
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_title h1
+{
+    font-size: 90px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+}
+.left_title p 
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.left_main>p
+{
+    width: 100%;
+    font-size: 25px;
+    color:white;
+}
+.left_btn 
+{
+    padding: 10px 70px;
+    background-color: #fff;
+    color:#E73AB8;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.left_btn:hover
+{
+    background:#E73AB8;
+    color: #fff;
+}
+.right_main
+{
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+}
+.right_item
+{
+    height: 50%;
+    position: relative;
+}
+.right_item image{
+    height: 100%;
+
+}
+.right_item p
+{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.right_item .right_btn 
+{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.purple_btn:hover
+{
+    border: 2px solid #E73AB8;
+    color: #fff;
+    background-color: #0E0E0E;
+
+}
+.blue_btn:hover
+{
+    border: 2px solid blue;
+    color: #fff;
+    background-color: #0E0E0E;
+    
+}

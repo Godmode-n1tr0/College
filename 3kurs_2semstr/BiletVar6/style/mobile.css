@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    transition: 0.5s;
+    padding: 0;
+}
+
+main{
+width: 100%;
+height: 100vh;
+padding: 25px;
+box-sizing: border-box;
+background-color: wheat;
+display: grid;
+gap: 25px;
+}
+
+.item_one{
+    background-color: #f15555;
+    grid-row: span 1;
+}
+
+.item_two{
+    background-color: #f1f155;
+    grid-row: span 4;
+}
+
+.item_three{
+    background-color: #55f155;
+    grid-row: span 5;
+}
+
+.item_four {
+    grid-row: span 4;
+    background-color: darkgreen;
+}
+
+.item_five {
+    grid-row: span  3;
+    background-color: aquamarine;
+}
+
+
+.item_six {
+    grid-row: span  3;
+    background-color: aqua;
+}
+
+
+.item_seven {
+    grid-row: span  1;
+    background-color: red;
+}

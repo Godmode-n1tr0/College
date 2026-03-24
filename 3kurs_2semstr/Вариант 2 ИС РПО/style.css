@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    height: 60%;
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    text-wrap: nowrap;
+    /* transition: 0.5s; */
+    animation: animation 5s infinite ease-in-out;
+
+}
+.slider:hover{
+    transform: translateX(-100%);
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes animation{
+    0%,20%,100%{
+        transform: translateX(0%);
+    }
+    30%,50%{
+        transform: translateX(-100%);
+    }
+    60%,80%{
+        transform: translateX(-200%);
+    }
+}

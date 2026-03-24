@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    transition: 0.5s;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+a:hover, 
+button:hover {
+    opacity: 0.5;
+}
+
+input:hover {
+    opacity: 0.5;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 5%;
+    box-sizing: border-box;
+    background-image: url('../img/back.png'), linear-gradient(45deg, #ff0077, #000055);
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.up, 
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2em;
+}
+
+.menu_nav,
+.menu_contact {
+    display: flex;
+    gap: 20px;
+}
+
+.menu_nav a {
+    font-size: 1.5em;
+}
+
+.menu_contact img {
+    width: 50px;
+    filter: hue-rotate(180deg) invert(1);
+}
+
+.content_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.content_slogan {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid #fff;
+}
+
+.content_slogan::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.content_title {
+    font-size: 3em;
+}
+.content_title1 {
+    font-size: 1em;
+    color: gray;
+}
+
+.content_desc {
+    font-size: 1.5em;
+}
+
+.content_form {
+    width: 30%;
+    padding: 50px;
+    box-sizing:  border-box;
+    background-color: #fff;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 50px;
+}
+
+.form_title {
+    color: black;
+}
+.form_title1 {
+    font-size: 1em;
+    color: cyan;
+}
+
+
+.form_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.form_item input {
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #afafaf;
+}
+
+.form_item input:focus {
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.form_btn {
+    padding: 10px 50px;
+    background-color: #ff0077;
+    font-weight: 900;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.urist {
+    position: absolute;
+    width: 600px;
+    z-index: 1;
+    bottom: 0;
+    left: 48%;
+    filter: drop-shadow(0 0 5px white);
+}
+
+
+.lang {
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+    bottom: 1%;
+    right: 1%;
+}

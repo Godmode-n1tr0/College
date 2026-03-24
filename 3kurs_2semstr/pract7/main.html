@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Password</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="tabl">
+        <div class="poles">
+            <p class="otvet" id="pole">das</p>
+        </div>
+        <div class="dlinas">
+            <p class="dlina">Длина пароля</p>
+            <div class="polzunok">
+                <input type="range" class="polzunochek" min="4" max="16" step="1" style="width: 400;">
+            </div>
+        </div>
+        <div class="vverh">
+            <p class="uslovie">Использовать вверхний регистр</p>
+            <label for="vverh" class = "switch">
+                <input type="checkbox" id="vverh">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="niz">
+            <p class="uslovie">Использовать нижний регистр</p>
+            <label for="niz" class = "switch">
+                <input type="checkbox" id="niz">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="cifri">
+            <p class="uslovie">Использовать цифры</p>
+            <label for="cifri" class = "switch">
+                <input type="checkbox" id="cifri">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="simvol">
+            <p class="uslovie">Использовать специальные цифры</p>
+            <label for="simvol" class = "switch">
+                <input type="checkbox" id="simvol">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <button class="generirovat" id="gener">Сгенерировать</button>
+    </div>
+    <script src="js/generator.js"></script>
+</body>
+</html>

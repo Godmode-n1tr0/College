@@ -1,0 +1,97 @@
+body {
+    background-image: url("../img/yoichi-isagi-blue-3440x1440-20008.jpg");
+}
+
+.tabl{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(32, 32, 32);
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-top: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3rem 3rem 3rem 3rem;
+}
+.score1{
+    background-color: black;
+    padding: 0.5rem 7rem 0.5rem 7rem;
+}
+.score2{
+    background-color: black;
+    padding: 0.5rem 7rem 0.5rem 7rem;
+}
+.vert{
+    display: flex;
+    flex-direction: row;
+}
+
+.dop{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-left: 38%;
+    margin-top: 4rem;
+    margin-right: 38%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.dop2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 1rem;
+
+}
+.dop2 a{
+    font-size: 48px;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    font-size: 48px;
+    width: 400px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    font-size: 48px;
+    margin-top: 5rem;
+    width: 400px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text a{
+    font-size: 60px;
+}
+.text1 a{
+    font-size: 60px;
+}
